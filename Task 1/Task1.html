@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background-color: #333; /* Navbar background color */
+      color: #fff; /* Navbar text color */
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .navbar-brand {
+      color: #fff; /* Navbar brand text color */
+      font-size: 24px;
+      text-decoration: none;
+    }
+    .navbar-nav {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+    .nav-item {
+      margin-right: 20px;
+    }
+    .nav-link {
+      color: #fff; /* Navbar link text color */
+      text-decoration: none;
+      font-size: 15px;
+    }
+    /* Responsive styles */
+    @media screen and (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        padding-bottom: 10px;
+      }
+      .nav-item {
+        margin: 10px 0;
+      }
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=906&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      background-size: cover;
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .features {
+      background-color: #f4f4f4;
+      padding: 50px 0;
+      text-align: center;
+    }
+    .feature {
+      width: 30%;
+      display: inline-block;
+      margin: 20px;
+    }
+    .feature img {
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      height: 50px;
+    }
+    .button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+  <section class="hero">
+    <div>
+      <h1>Discover Our Products</h1>
+      <p>We specialize in web and app development alongside digital marketing solutions. Crafting visually stunning websites and intuitive mobile apps, we ensure optimal performance. Our digital marketing strategies maximize online visibility, engaging target audiences and driving conversions through SEO, social media, and content marketing.Get in contact with us!</p>
+      <button class="button">Contact Us</button>
+    </div>
+  </section>
+  <section class="features">
+    <h2>Services</h2>
+    <div class="feature">
+      <h3>Web Development</h3>
+      <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" alt="Feature 1">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="feature">
+      <h3>App Development</h3>
+      <img src="https://riseuplabs.com/wp-content/uploads/2021/07/mobile-application-development-guidelines-riseuplabs.jpg" alt="Feature 2">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="feature">
+      <h3>Digital Marketing</h3>
+      <img src="https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2022/11/DM_blog_post_image_03_guetzli-850x412.jpg" alt="Feature 3">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2024 Landing Page. All rights reserved.</p>
+  </footer>
+</body>
+</html>
