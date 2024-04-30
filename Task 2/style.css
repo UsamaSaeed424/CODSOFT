@@ -1,0 +1,99 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0c8baa;
+    color: #fff;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+header h2{
+    padding-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#intro{
+    background: url('https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg?w=826&t=st=1714480835~exp=1714481435~hmac=9b4f7b4e1f3f6769f81408bdddb94b4a9c40b26a777b4b6b40d2293aefa07d00');
+    background-size: cover;
+    max-height: 100%;
+}
+
+footer {
+    background-color: #0c8baa;;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul {
+        margin-top: 10px;
+    }
+}
+
+/* About section styles */
+#about {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Projects section styles */
+#projects {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+/* Contact section styles */
+#contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Link styles */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
