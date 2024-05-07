@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 header h2{
@@ -27,12 +27,6 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
-}
-
-#intro{
-    background: url('https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg?w=826&t=st=1714480835~exp=1714481435~hmac=9b4f7b4e1f3f6769f81408bdddb94b4a9c40b26a777b4b6b40d2293aefa07d00');
-    background-size: cover;
-    max-height: 100%;
 }
 
 footer {
@@ -97,3 +91,13 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+#intro {
+    text-align: center;
+}
+
+#contact a{
+    color: rgb(16, 165, 148);
+}
+
+
