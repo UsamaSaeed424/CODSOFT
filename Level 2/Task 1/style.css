@@ -1,0 +1,117 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #444;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6600;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0%;
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  .card img{
+    height: 300px;
+    width: 100%;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: 100px;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  
+  
